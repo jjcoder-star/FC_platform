@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7fb;
+}
+
+.profile-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #0c2d48;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.sidebar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-role {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 8px 4px;
+  background: white;
+  color: #0c2d48;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background: #fff;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.edit-profile {
+  background-color: #0c2d48;
+  color: white;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.quick-stats {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0;
+  font-size: 16px;
+  justify-content: flex-start;
+}
+
+.quick-stats div {
+  text-align: center;
+  flex: 1;
+  background: #f0f4fa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.info-table p {
+  font-size: 16px;
+  margin: 12px 0;
+  padding: 5px 10px;
+  background: #f4f6fa;
+  border-radius: 6px;
+}
+
+.follow-btn {
+  background-color: #0c2d48;
+  color: white;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.following {
+  background-color: #28a745;
+}

@@ -1,0 +1,142 @@
+.mentors-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mentors-container h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.mentors-container h1 i {
+    margin-right: 10px;
+    color: #3498db;
+}
+
+.mentors-scroll {
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.mentors-grid {
+    display: inline-flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.mentor-card {
+    width: 280px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: transform 0.3s;
+    flex-shrink: 0;
+}
+
+.mentor-card:hover {
+    transform: translateY(-5px);
+}
+
+.mentor-image {
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mentor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.senior-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(52, 152, 219, 0.9);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.senior-badge i {
+    margin-right: 5px;
+}
+
+.mentor-info {
+    padding: 15px;
+}
+
+.mentor-info h3 {
+    margin: 0 0 5px;
+    color: #2c3e50;
+    font-size: 18px;
+}
+
+.mentor-title {
+    margin: 0 0 10px;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+.mentor-stats {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.mentor-stats span {
+    display: flex;
+    align-items: center;
+}
+
+.mentor-stats i {
+    margin-right: 5px;
+    color: #3498db;
+}
+
+.mentor-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.skill-tag {
+    background-color: #e0f7fa;
+    color: #00838f;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.mentor-actions {
+    padding: 0 15px 15px;
+}
+
+.btn-view {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.btn-view:hover {
+    background-color: #2980b9;
+}
+
+.btn-view i {
+    margin-right: 8px;
+}

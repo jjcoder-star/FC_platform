@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7fb;
+  padding: 30px;
+}
+
+.admin-users-container {
+  background: #fff;
+  padding: 25px;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  width: 300px;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-form button {
+  padding: 9px 14px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #0077cc;
+  color: white;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.edit-btn {
+  background: #28a745;
+  color: white;
+  margin-right: 5px;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}

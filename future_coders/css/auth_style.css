@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('../uploads/auth.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 40px;
+  width: 350px;
+  color: rgb(24, 10, 10);
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #0c0808;
+}
+
+.auth-container input,
+.auth-container select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.25);
+  color: rgb(5, 3, 3);
+}
+
+.auth-container input::placeholder,
+.auth-container select {
+  color: #1b1212;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a202c;
+  color: rgb(15, 10, 10);
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #2d3748;
+}
+
+.auth-container label {
+  text-align: left;
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.auth-container .bottom-link {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.auth-container .bottom-link a {
+  color: #0a0c0f;
+  text-decoration: underline;
+}

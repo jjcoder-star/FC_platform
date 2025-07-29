@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1b1f3b;
+  padding: 15px 40px;
+  color: white;
+}
+
+.nav-bar .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-bar .logo span {
+  font-weight: normal;
+  color: #aaa;
+}
+
+.nav-bar nav a {
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-bar nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #4a00e0, #8e2de2);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-section .cta {
+  display: inline-block;
+  margin-top: 20px;
+  background: white;
+  color: #4a00e0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-section .cta:hover {
+  background: #f0f0f0;
+}
+
+/* Founders */
+.founders-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.founders-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.founders-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.founder-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.founder-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.founder-card h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
