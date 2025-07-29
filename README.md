@@ -9,13 +9,13 @@ Hosted on: [GitHub – jjcoder-star/fc_platform](https://github.com/jjcoder-star
 ## 📸 Screenshots
 
 ### dsahbaord Page  
-![index file](images/dasboard.png)
+![Home page](images/dashboard.png)
 
 ### 🧑‍🎓 Admin Dashboard  
 ![Dashboard](images/Admin-dashboard.png)
 
 ### 🗨️ Register Form
-![register](images/Register.png)
+![Register](images/Register.png)
 
 
 
